@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".SegundaTela">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button5"
+        android:layout_width="259dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="76dp"
+        android:text="Tema do Aplicativo"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button6"
+        android:layout_width="104dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="272dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button7"
+        android:layout_width="252dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="80dp"
+        android:text="Unidades de medidas"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button8"
+        android:layout_width="135dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="48dp"
+        android:text="Notificações"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <ImageButton
+        android:id="@+id/button6"
+        android:layout_width="71dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/agua"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="649dp" />
+
+    <ImageButton
+        android:id="@+id/button8"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/estatistica"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="655dp" />
+
+    <ImageButton
+        android:id="@+id/bt_segunda_tela"
+        android:layout_width="77dp"
+        android:layout_height="71dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/engrenagem"
+        android:contentDescription="Ir Para Segunda Tela"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="80dp"
+        android:layout_height="67dp"
+        android:background="@drawable/kgg"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="649dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

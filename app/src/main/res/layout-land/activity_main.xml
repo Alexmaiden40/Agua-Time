@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:layout_width="410dp"
+        android:layout_height="172dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="2"
+        android:text="Sua proxima água em 10 minutos"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="370dp"
+        android:layout_height="92dp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="470dp" />
+
+    <View
+        android:layout_width="417dp"
+        android:layout_height="158dp"
+        android:background="@color/azul"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="2"
+        android:text="Adicione sua primeira bebida hoje "
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="Semanal"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="666dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="666dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="666dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_segunda_tela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="311dp"
+        tools:layout_editor_absoluteY="666dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicione Uma Bebida"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    />
+
+    ]]>
+</androidx.constraintlayout.widget.ConstraintLayout>
